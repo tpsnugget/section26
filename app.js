@@ -13,7 +13,18 @@ app.get('/person/:name', function(req, res) {
 
    //                      person is a variable in the ejs file that comes from
    //                      the :name variable in this route
-   res.render('home.ejs', {person: name})
+   res.render('home.ejs', {person: name,
+                           person1: 'Margaret',
+                           person2: 'Rusty'})
+})
+
+app.get('/posts', function(req, res) {
+   var posts = [
+      {title: 'Post 1', author: 'Susy'},
+      {title: 'My adorable pet bunny', author: 'Charlie'},
+      {title: 'Can you believe this pomsky', author: 'Colt'}
+   ]
+   res.render('posts.ejs', {posts: posts})
 })
 // ============
 //    Routes
