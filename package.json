@@ -1,0 +1,22 @@
+{
+  "name": "section26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpsnugget/section26.git"
+  },
+  "author": "Mike Giebner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpsnugget/section26/issues"
+  },
+  "homepage": "https://github.com/tpsnugget/section26#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
