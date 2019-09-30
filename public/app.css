@@ -2,3 +2,13 @@ body {
    background: yellow;
    color: purple;
 }
+
+img {
+   width: 50%;
+   
+}
+
+#leCreuset {
+   display: flex;
+   justify-content: center;
+}
